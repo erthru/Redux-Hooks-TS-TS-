@@ -1,4 +1,4 @@
-# React Redux TS / レダックスホークス TS
+# Redux Hooks TS / レダックスホークス TS
 
 ### Stacks Used:
 
