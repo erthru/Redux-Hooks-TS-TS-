@@ -3,11 +3,11 @@ import thunk from "redux-thunk";
 import userReducers from "./user/reducers";
 
 const combinedReducers = combineReducers({
-    userReducers: userReducers,
+    user: userReducers,
 });
 
-export type AppReducers = ReturnType<typeof combinedReducers>;
-
 const store = createStore(combinedReducers, {}, applyMiddleware(...[thunk]));
+
+export type Store = ReturnType<typeof combinedReducers>;
 
 export default store;
