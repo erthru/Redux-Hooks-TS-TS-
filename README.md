@@ -2,8 +2,6 @@
 
 ### Stacks Used:
 
-<br />
-
 -   NextJS
     <br />
 -   Redux, React Redux, Redux Thunk
@@ -12,10 +10,6 @@
     <br />
 -   API Placeholder from reqres.in
 
-<br />
-<br />
-
 ### Screenshot:
 
-<br />
-<img src="./assets/screenshots/one.png" height="600" width="370"/>
+<img src="./assets/screenshot.png" height="600" width="370" style="margin-top: 10px;"/>
