@@ -1,15 +1,28 @@
 {
-  "name": "redux-hooks-typescript",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "9.5.5",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
-  }
+    "name": "redux-hooks-typescript",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.32",
+        "@fortawesome/free-brands-svg-icons": "^5.15.1",
+        "@fortawesome/free-solid-svg-icons": "^5.15.1",
+        "@fortawesome/react-fontawesome": "^0.1.11",
+        "next": "9.5.5",
+        "react": "17.0.1",
+        "react-dom": "17.0.1",
+        "react-redux": "^7.2.1",
+        "redux": "^4.0.5",
+        "redux-thunk": "^2.3.0",
+        "tailwindcss": "^1.9.6"
+    },
+    "devDependencies": {
+        "@types/node": "^14.14.2",
+        "@types/react": "^16.9.53",
+        "typescript": "^4.0.3"
+    }
 }
