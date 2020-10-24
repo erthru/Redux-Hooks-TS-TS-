@@ -18,4 +18,4 @@
 ### Screenshot:
 
 <br />
-<img src="./assets/screenshots/ss-one.png" height="600" width="370"/>
+<img src="./assets/screenshots/one.png" height="600" width="370"/>
