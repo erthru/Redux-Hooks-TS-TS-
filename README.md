@@ -6,6 +6,8 @@
     <br />
 -   Redux, React Redux, Redux Thunk
     <br />
+-   Tailwind CSS
+    <br />
 -   Font Awesome Icons
     <br />
 -   API Placeholder from reqres.in
