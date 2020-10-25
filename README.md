@@ -14,4 +14,4 @@
 
 ### Screenshot:
 
-<img src="./assets/screenshot.png" height="600" width="370" style="margin-top: 10px;"/>
+<img src="./assets/screenshot.png" height="600" width="390" style="margin-top: 10px;"/>
