@@ -49,7 +49,7 @@ const Index = () => {
 
             {total > users.length && (!isFetchingUsers || !isFetchingUsersNext) ? (
                 <div className="flex mt-3 cursor-pointer" onClick={loadMore}>
-                    <span className="mx-auto text-gray-600 font-medium text-xl">Load More</span>
+                    <span className="mx-auto text-gray-600 font-medium text-xl">Load Next</span>
                 </div>
             ) : null}
         </Layout>
