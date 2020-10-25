@@ -21,7 +21,6 @@ export type State = {
 export type Action = {
     type: TYPES;
     payloads?: {
-        requestingPage?: number;
         users?: Array<User>;
         total?: number;
     };
