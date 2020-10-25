@@ -30,7 +30,6 @@ const BottomNavigation = () => {
     const routeToMessage = () => {
         setCurrentActiveItem(Item.message);
         router.push("/message");
-
     };
 
     const routeToSearch = () => {

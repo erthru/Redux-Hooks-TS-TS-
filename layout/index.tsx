@@ -12,9 +12,7 @@ const Layout = (props: Props) => {
     const [additionalSpacingInBottom, setAdditionalSpacingInBottom] = useState("96px");
 
     useEffect(() => {
-        if (isIOS()) {
-            setAdditionalSpacingInBottom("168px");
-        }
+        if (isIOS()) setAdditionalSpacingInBottom("168px");
     }, []);
 
     return (
