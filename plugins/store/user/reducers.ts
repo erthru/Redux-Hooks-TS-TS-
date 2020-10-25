@@ -1,14 +1,4 @@
-import { Reducer } from "redux";
-import { Action, TYPES, User } from "./types";
-
-type State = {
-    users: Array<User>;
-    total: number;
-    page: number;
-    isFetchingUsers: boolean;
-    isFetchingUsersNext: boolean;
-    isError: boolean;
-};
+import { Action, TYPES, State } from "./types";
 
 const initialState: State = {
     users: [],
