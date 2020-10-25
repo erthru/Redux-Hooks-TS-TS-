@@ -1,10 +1,7 @@
 export enum TYPES {
-    REQUESTING_USERS = "REQUESTING_USERS",
+    REQUEST_USERS_INITIAL = "REQUEST_USERS_INITIAL",
     REQUEST_USERS_COMPLETED = "REQUEST_USERS_COMPLETED",
-    REQUEST_USERS_ERROR = "REQUEST_USERS_ERROR",
-    REQUESTING_USERS_NEXT = "REQUESTING_USERS_NEXT",
-    REQUEST_USERS_NEXT_COMPLETED = "REQUEST_USERS_NEXT_COMPLETED",
-    REQUEST_USERS_NEXT_ERROR = "REQUEST_USERS_NEXT_ERROR",
+    ON_ERROR = "ON_ERROR",
 }
 
 export type User = {
@@ -18,15 +15,13 @@ export type User = {
 export type State = {
     users: Array<User>;
     total: number;
-    page: number;
-    isFetchingUsers: boolean;
-    isFetchingUsersNext: boolean;
     isError: boolean;
 };
 
 export type Action = {
     type: TYPES;
     payloads?: {
+        requestingPage?: number;
         users?: Array<User>;
         total?: number;
     };
